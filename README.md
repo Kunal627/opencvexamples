@@ -30,3 +30,16 @@ python .\keras_cifar10.py --output ..\output\keras_cifar10.png
 convolution.py
 =============
 python .\convolution.py --image ..\testdata\jp.jpeg
+
+shallownet
+==========
+just an example to compose a CNN - shallownet_animals.py and shallownet_cifar10.py implement shallownet
+
+Save and load model 
+==================
+python shallownet_train.py --dataset ..\data --model ..\output\shallownet_weights.hdf5
+python shallownet_load.py --dataset ..\data --model ..\output\shallownet_weights.hdf5
+
+mini vggnet(cifar 10):
+===========
+python minivggnet_cifar10.py --output ../output/cifar10_minivggnet_with_bn.png

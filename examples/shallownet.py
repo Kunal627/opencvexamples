@@ -20,8 +20,11 @@ class ShallowNet:
         model.add(Conv2D(32, (3,3), padding="same", input_shape=inputShape))
         model.add(Activation("relu"))
         model.add(Flatten())
-        model.add(Dense(1))
+#        model.add(Dense(1))
+        model.add(Dense(classes))
         model.add(Activation("sigmoid"))
+#        model.add(Activation("softmax"))
+
 
         return model
 
