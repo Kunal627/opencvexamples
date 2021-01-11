@@ -22,4 +22,4 @@ search
 ------
 python search.py --index ..\data\out\index.cpickle --query ..\data\test\pikachu.png
 
-NB- pokedex is broken, does not return correct image as output. 
+NB- My code implementation of pokedex is broken does not return correct image as output.  may be its the input images not indexed correctly. Actual blog post only indexed Red blue. 
