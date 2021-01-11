@@ -17,3 +17,9 @@ python .\index.py --sprites ..\data\inp\pokemon\ --index ..\data\out\index.cpick
 find_screen.py - crop the pokemon from gameboy screen (saves the cropped_image.png to /data/test folder)
 -------------
 python .\find_screen.py --query ..\data\test\gameboy.png
+
+search
+------
+python search.py --index ..\data\out\index.cpickle --query ..\data\test\pikachu.png
+
+NB- pokedex is broken, does not return correct image as output. 
