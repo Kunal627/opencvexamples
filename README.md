@@ -43,3 +43,13 @@ python shallownet_load.py --dataset ..\data --model ..\output\shallownet_weights
 mini vggnet(cifar 10):
 ===========
 python minivggnet_cifar10.py --output ../output/cifar10_minivggnet_with_bn.png
+
+cifar10_monitor.py  (monitor the CNN training)
+===================
+python .\cifar10_monitor.py --output ..\output\
+
+
+cifar10_checkpoint_improvements (checkpointing)
+===============================
+
+
