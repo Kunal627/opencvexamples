@@ -1,4 +1,4 @@
-# code snippets are taken from pyimagesearch
+# open cv code snippets are taken from pyimagesearch
 
 # opencvexamples
 sample code snippets - opencv
@@ -53,3 +53,4 @@ cifar10_checkpoint_improvements (checkpointing)
 ===============================
 
 
+Kaggle - contains my solutions to kaggle competitions
