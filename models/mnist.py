@@ -1,4 +1,10 @@
-from neuralnetwork import NeuralNetwork
+from pathlib import Path # if you haven't already done so
+import sys, os
+file = Path(__file__).resolve()
+parent, root = file.parent, file.parents[1]
+sys.path.append(str(root))
+
+from examples.neuralnetwork import NeuralNetwork
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
@@ -19,7 +25,7 @@ print(trainX[0], trainY)
 # convert the labels from integers to vectors
 trainY = LabelBinarizer().fit_transform(trainY)
 testY = LabelBinarizer().fit_transform(testY)
-
+print("::::::::::::::", trainX.shape[1])
 # train the network
 print("[INFO] training network...")
 nn = NeuralNetwork([trainX.shape[1], 32, 16, 10])
