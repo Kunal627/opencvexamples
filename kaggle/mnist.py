@@ -1,4 +1,5 @@
-
+# this gave accuracy of .99157 on test took around miute /epoch to train
+# the commented code is more deep with more dense layers it gave accuracy of .99107
 
 import numpy as np 
 import pandas as pd
